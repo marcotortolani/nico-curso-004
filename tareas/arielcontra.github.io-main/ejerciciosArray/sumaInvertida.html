@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suma Invertida</title>
+    <style>
+        body {
+            background-color: #411919;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>EJERCICIO 1</h1>
+    <h2>SUMA INVERTIDA</h2>
+    <p>Consigna:<br/>Escribir una función que reciba dos números enteros positivos y retorne su suma invertida.Ayuda un int se puede pasar a string y viceversa<br/>Ejemplo: si recibe (123,456) (123+456=579), Retornaría 975. OJO retorna un ENTERO</p>
+    <script>
+         
+        //array numeros
+        const numArray = [123,456]
+
+        //suma
+        let suma = 0
+        
+        for (let i = 0; i < numArray.length; i++) {
+            suma += numArray [i];
+        }
+
+        //combertir resultado de la suma en string
+        let sumaAString = suma.toString ();
+
+        //combertir string en array
+        const stringAArray = sumaAString.split ("")
+
+        //invertir orden del array
+        const invertirArray = stringAArray.reverse ("")
+
+        //combertir un array en un string
+        const arrayAString = invertirArray.join ("");
+
+        //combertir un string en un numero entero
+        let resultado = parseInt (arrayAString);
+
+        console.log (resultado);
+       
+    </script>
+</body>
+</html>

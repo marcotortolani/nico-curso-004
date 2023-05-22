@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Numero Perfecto</title>
+    <style>
+        body {
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>EJERCICIO 2</h1>
+    <h2>NUMERO PERFECTO</h2>
+    <p>Consigna:<br/>Escribir una función que reciba un número entero y devuelva FALSE si el número es igual a la suma de sus divisores sin contarse a el mismo. y TRUE en caso contrario.<br/>Ejemplo: 6 Retornaría FALSE porque 1 + 2 + 3 = 6.<br/>Ejemplo: 8 Retornaría TRUE porque 1 + 2 + 4 != 8.
+    </p>
+    <script>
+        
+        let numero = prompt("ingresa un numero");
+        const numeroPerfecto = es_numero_perfecto(numero);
+        alert("Es numero perfecto?? "+numeroPerfecto);
+        console.log(numeroPerfecto);
+
+        function es_numero_perfecto(numero) {
+            const divisores = calcularDivisores(numero);
+            const suma = sumaDivisores(divisores);
+            const comprobacion = comprobacionNum(suma);
+
+            function calcularDivisores(numero) {
+                let divisores = [];
+                
+                for (let i = 1; i < numero; i++) {
+                    if (numero % i == 0) {
+                        divisores.push(i);
+                        }
+                    }
+                return divisores;
+            }
+
+            function sumaDivisores(divisores) {
+                let suma = 0;
+            
+                for (let i = 0; i < divisores.length; i++) {
+                    suma += divisores [i];
+                }
+                return suma;
+            }
+            
+            function comprobacionNum(suma) {
+                if (numero == suma) {
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            }
+
+            return comprobacion;
+        }
+        
+    </script>
+</body>
+</html>
+

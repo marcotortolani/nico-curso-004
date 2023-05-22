@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 95vw;
+  padding: 0 20vw;
+  background-color: rgb(33, 36, 61);
+  color: aliceblue;
+}
+
+.home-icon {
+  display: flex;
+  align-items: center;
+  color: #fcfcfc;
+}
+.home-icon img {
+  width: auto;
+  height: 40px;
+  margin: 0 20px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: greenyellow;
+}
+
+a, h2, h3, h4, h5, h6, p, li {
+  color: orange;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p, li {
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+a:hover li {
+  color: #ffc966;
+}
+a li {
+  color: orange;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ol {
+  margin-bottom: 100px;
+}
+ol a {
+  font-size: 1.5rem;
+}
+ol a li {
+  margin: 10px 0;
+}
+
+section {
+  margin: 50px 0;
+}
+section img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  width: 160px;
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+footer a:hover {
+  background-color: rgb(87, 87, 87);
+}
+footer a:hover h5 {
+  color: aqua;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+footer a h5 {
+  color: rgb(0, 170, 255);
+  font-size: 1rem;
+}/*# sourceMappingURL=app.css.map */

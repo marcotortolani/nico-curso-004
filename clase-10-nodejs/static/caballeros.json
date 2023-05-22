@@ -1,0 +1,45 @@
+{
+  "caballeros": [
+    {
+      "nombre": "Seiya de Pegaso",
+      "constelacion": "Pegaso",
+      "arma": "Puño de Pegaso",
+      "rango": "Bronce",
+      "tecnicas": ["Meteoros de Pegaso", "Cometa de Pegaso", "Rayo de Pegaso"],
+      
+      "historia": "Seiya es uno de los Santos de bronce de la diosa Atenea. Luchó en la Guerra Galáctica contra los Caballeros Negros y después en la batalla contra los Santos de Plata en el Santuario de Atenea."
+    },
+    {
+      "nombre": "Shiryu de Dragón",
+      "constelacion": "Dragón",
+      "arma": "Puño del Dragón",
+      "rango": "Bronce",
+      "tecnicas": ["Rozan Shoryuha", "Rozan Hyaku Ryū Ha", "Rozan Kōryū Ha"],
+      "historia": "Shiryu es uno de los Santos de bronce de la diosa Atenea. Luchó en la Guerra Galáctica contra los Caballeros Negros y después en la batalla contra los Santos de Plata en el Santuario de Atenea."
+    },
+    {
+      "nombre": "Hyoga de Cisne",
+      "constelacion": "Cisne",
+      "arma": "Puño de Hielo",
+      "rango": "Bronce",
+      "tecnicas": ["Polvo de Diamantes", "Rayo de Aurora", "Círculo de Hielo"],
+      "historia": "Hyoga es uno de los Santos de bronce de la diosa Atenea. Luchó en la Guerra Galáctica contra los Caballeros Negros y después en la batalla contra los Santos de Plata en el Santuario de Atenea."
+    },
+    {
+      "nombre": "Shun de Andrómeda",
+      "constelacion": "Andrómeda",
+      "arma": "Nebula Chain",
+      "rango": "Bronce",
+      "tecnicas": ["Tormenta Nebular", "Cadena Nebular", "Gran Andrómeda"],
+      "historia": "Shun es uno de los Santos de bronce de la diosa Atenea. Luchó en la Guerra Galáctica contra los Caballeros Negros y después en la batalla contra los Santos de Plata en el Santuario de Atenea."
+    },
+    {
+      "nombre": "Ikki de Fénix",
+      "constelacion": "Fénix",
+      "arma": "Ave Fénix",
+      "rango": "Bronce",
+      "tecnicas": ["Golpe Fantasma", "Alas del Fénix", "Fénix Genmaken"],
+      "historia": "Ikki es el hermano mayor de Shun y también es un Santo de bronce de la diosa Atenea. Fue el enemigo principal en el arco de la isla de la Muerte, pero después se unió a los Santos de bronce en su lucha contra los Santos de Plata en el Santuario de Atenea."
+    }
+  ]
+}
